@@ -28,9 +28,15 @@
                     <li class="nav-item active">
                       <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Product</a>
-                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Product
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#smartphone">Smartphone</a>
+                          <a class="dropdown-item" href="#laptop">Laptop</a>
+                        </div>
+                      </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">About Us</a>
                     </li>
@@ -106,7 +112,7 @@
             </div>
     </section>
     <!--=============== Carousel Slider area End ===============-->
-    <section class="smartphone_area">
+    <section class="smartphone_area" id="smartphone">
         <div class="container">
             <div class="section-heading d-flex justify-content-between">
                 <h2>Smartphone</h2>
@@ -146,6 +152,83 @@
               </div>
         </div>
     </section>
+    <!-- Laptop section Start  -->
+    <section class="laptop_area" id="laptop">
+        <div class="container">
+            <div class="section-heading d-flex justify-content-between">
+                <h2>Laptop</h2>
+                <a class="section_link_color" href="#">See All</a>
+            </div>
+            <div class="card-deck text-center hot_card">
+                <div class="card">
+                  <img src="assets/images/laptop/product-1.png" class="card-img-top " alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Asus VivoBook </h5>
+                    <p class="card-text">Some quick example text to build on
+                        the card title.</p>
+                    <h5 class="price">$999</h5>
+                    <button type="button" class="btn btn-dark text-white">Buy Now &rarr;</button>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="assets/images/laptop/product-2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Razer Blade 15 </h5>
+                    <p class="card-text">Some quick example text to build on
+                        the card title.</p>
+                    <h5 class="price">$2799</h5>
+                    <button type="button" class="btn btn-dark text-white">Buy Now &rarr;</button>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="assets/images/laptop/product-3.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Xiaomi Mi Notebook Pro</h5>
+                    <p class="card-text">Some quick example text to build on
+                        the card title.</p>
+                    <h5 class="price">$999</h5>
+                    <button type="button" class="btn btn-dark text-white">Buy Now &rarr;</button>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <!-- Categoris section Start  -->
+    <section class="categori-area">
+        <div class="container">
+            <div class="section-heading categori-heading text-center">
+                <h2>Categoris</h2>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-3 d-flex align-items-center">
+                   <div class="bag bg_cat">
+                    <img src="assets/images/Categories/bag.png" alt="">
+                    <h6>Bag</h6>
+                   </div>
+                </div>
+                <div class="col-md-3 d-flex flex-column">
+                    <div class="bauty  bg_cat">
+                        <img src="assets/images/Categories/perfume.png" alt="">
+                        <h6>Bauty</h6>
+                    </div>
+                    <div class="shoe  bg_cat">
+                        <img src="assets/images/Categories/shoe.png" alt="">
+                        <h6>Shoes</h6>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/images/Categories/pale-order.png" class="w-100" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-area">
+        <div class="container">
+            <div class="copy text-center">
+                <p><small>&copy; All Right Reserved By Hot-Gadget || Design By <a href="#">Ariful Islam Raju</a></small></p>
+            </div>
+        </div>
+    </footer>
     <!-- colling all js file -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>

@@ -10,6 +10,9 @@ a, a:hover{
     text-decoration: none;
     transition: .5s all ease;
 }
+h1, h2, h3, h4, h5, h6{
+    color:#1F1F1F;
+}
 p{
     color:#8C8C8C;
 }
@@ -106,4 +109,39 @@ p{
     font-size: 24px;
     font-weight: 500;
     margin:20px 0
+}
+/* Categoris area start  */
+.categori-heading h2 {
+    position: relative;
+    z-index: 1;
+}
+
+.categori-heading h2::before {
+    position: absolute;
+    content:"";
+    width: 100px;
+    height: 8px;
+    background-image: linear-gradient(45deg, #ffcd1a, #ffa132);
+    left: 50%;
+    bottom: -10px;
+    border-radius: 10px;
+    transform: translateX(-50%);
+}
+.bg_cat {
+    box-shadow: 0 2px 5px #a09b9b;
+    border-radius: 10px 0px 10px 0;
+    width: 80%;
+    height: 100%;
+    padding: 20px 0;
+}
+.bauty {
+    margin-bottom: 40px;
+}
+.bag {
+    height: 50%;
+}
+.bg_cat h6 {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 30px 0 0;
 }
