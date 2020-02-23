@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap');
+body{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif ;
+    font-size: 14px;
+}
+section{
+    padding-bottom: 100px;
+}
+a, a:hover{
+    text-decoration: none;
+    transition: .5s all ease;
+}
+p{
+    color:#8C8C8C;
+}
+/* header area Start */
+.navbar-light .navbar-nav .nav-link {
+    color: #707070;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+    padding: 10px 20px;
+}
+.navbar-light .navbar-nav .nav-link::before{
+    background-image: linear-gradient(to right,#09f3c5,#4289ff);
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transform: scale(0);
+    opacity: 0;
+    transition: .5s all ease;
+    border-radius: 10px;
+}
+.navbar-light .navbar-nav .nav-link:hover::before{
+    transform: scale(1);
+    opacity: 1;
+    
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#fff;
+}
+
+/* header area end */
+/* slider area start  */
+.slier_area .carousel-indicators li {
+
+    width: 20px;
+    height: 15px;
+    border-radius: 50%;
+    background-color:#CECECE;
+    opacity: 1;
+}
+.slier_area .carousel-indicators li.active{
+    width: 50px;
+    background-color:#FFA231;
+    border-radius: 15px;
+}
+.slider-content h1 {
+    font-weight: 500;
+    font-size: 41px;
+    color: #1F1F1F;
+}
+.slider-content p{
+    font-size: 18px ;
+    font-weight: 300;
+    
+}
+.hot_button {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+/* slider area end  */
+/* smartphone area Start  */
+.section-heading {padding-bottom: 50px;}
+
+.section-heading h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #1F1F1F;
+    box-sizing: border-box;
+}
+
+.section_link_color {
+    font-size: 22px;
+    font-weight: 500;
+    color: #ffa431;
+}
+.section_link_color:hover{
+    color:#1DCED9;
+}
+.hot_card .card {
+    border: none;
+    box-shadow: 0px 2px 5px grey;
+}
+.hot_card .card img {
+    padding: 40px 30px;
+    box-sizing: border-box;
+}
+.card-body h5 {
+    font-size: 24px;
+    font-weight: 500;
+    margin:20px 0
+}
