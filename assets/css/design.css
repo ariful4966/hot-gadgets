@@ -147,6 +147,11 @@ p{
 }
 @media screen and (max-width:767px){
     .bag {
+        height: 70%;
+    }
+}
+@media screen and (max-width:480px){
+    .bag {
         height: 100%;
     }
 }
